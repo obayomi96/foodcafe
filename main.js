@@ -1,5 +1,5 @@
 // dropdown menu function
-const toggler = document.getElementBtId("toggler");
+const toggler = document.getElementById("toggler");
     toggler.onclick = () => {
     dropMenu.style.display = "block";
 } 
