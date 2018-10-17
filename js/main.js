@@ -11,5 +11,5 @@ const toggler = document.getElementById("toggler");
     if(event.target != dropMenu && event.target.parentNode != dropMenu) {
       dropMenu.style.display = "none";
     }
-  });git status
+  });
   

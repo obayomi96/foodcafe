@@ -1,6 +1,7 @@
 body {
     font-family: Adobe Caslon Pro;
     font-size: 20px;
+    width: 993px;
 }
 
 .myNavs{
@@ -47,6 +48,8 @@ body {
     color: white;
 }
 .home-lead {
+    background-image: url("./images/realfood5") cover center no-repeat !important;
+    width: 993px;
     padding-top: 150px;
     z-index: 1;
     box-shadow: 9px 17px 36px -19px rgba(0,0,0,0.46);
@@ -198,3 +201,19 @@ body {
     font-size: 15px;
     padding-top: 10px;
 }
+
+@media (min-width: 575px) {
+    .home-lead {
+        width: 100%;
+    }
+}
+@media (min-width: 768px) {
+    .home-lead {
+        width: 100%;
+    }
+}
+@media (min-width: 992px) {
+    .home-lead {
+        width: 100%;
+    }
+} 
