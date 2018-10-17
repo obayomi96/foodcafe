@@ -48,7 +48,7 @@ body {
     color: white;
 }
 .home-lead {
-    background-image: url("./images/realfood5") cover center no-repeat !important;
+    background-image: url("./images/realfood5") center no-repeat !important;
     width: 1200px;
     padding-top: 150px;
     z-index: 1;
@@ -206,9 +206,15 @@ body {
     .home-lead {
         width: 100%;
     }
+    body {
+        width: 100%
+    }
 }
 @media (max-width: 768.98px) {
     .home-lead {
+        width: 100%;
+    }
+    body {
         width: 100%;
     }
 }
@@ -216,9 +222,15 @@ body {
     .home-lead {
         width: 100%;
     }
+    body {
+        width: 100%;
+    }
 } 
-@media (max-width: 1999.98px) {
+@media (max-width: 1199.98px) {
     .home-lead {
         width: 100%;
+    }
+    body {
+        width : 100%;
     }
 }
