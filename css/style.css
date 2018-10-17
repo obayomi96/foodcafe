@@ -47,7 +47,7 @@ body {
     color: white;
 }
 .home-lead {
-    background-image: url("./images/realfood5") cover center no-repeat !important;
+    background-image: url("./images/realfood5.jpg") cover center no-repeat !important;
     width: 100%;
     padding-top: 150px;
     z-index: 1;
