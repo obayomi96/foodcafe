@@ -4,13 +4,13 @@ body {
     width: 1900px;
     margin-left: auto;
     margin-right: auto;
-    position: center;
+    position: absolute;
 }
 main {
-    width: 1900px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
-    position: center;
+    position: absolute;
 }
 
 .myNavs{
@@ -57,8 +57,8 @@ main {
     color: white;
 }
 .home-lead {
-    background-image: url("./images/realfood5") center no-repeat !important;
-    width: 1900px;
+    background-image: url("./images/realfood5") no-repeat !important;
+    width: 100%;
     padding-top: 150px;
     z-index: 1;
     box-shadow: 9px 17px 36px -19px rgba(0,0,0,0.46);
