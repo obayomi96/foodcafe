@@ -2,6 +2,13 @@ body {
     font-family: Adobe Caslon Pro;
     font-size: 20px;
     width: 1900px;
+    margin: 0px auto;
+    position: center;
+}
+main {
+    width: 1900;
+    margin: 0px auto;
+    position: center;
 }
 
 .myNavs{
@@ -209,12 +216,18 @@ body {
     body {
         width: 100%;
     }
+    main {
+        width: 100%;
+    }
 }
 @media (max-width: 768.98px) {
     .home-lead {
         width: 100%;
     }
     body {
+        width: 100%;
+    }
+    main {
         width: 100%;
     }
 }
@@ -225,6 +238,9 @@ body {
     body {
         width: 100%;
     }
+    main {
+        width: 100%
+    }
 } 
 @media (max-width: 1199.98px) {
     .home-lead {
@@ -232,5 +248,8 @@ body {
     }
     body {
         width : 100%;
+    }
+    main {
+        width: 100%;
     }
 }
