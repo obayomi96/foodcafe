@@ -1,7 +1,10 @@
+html {
+    width: 1200px;
+}
 body {
     font-family: Adobe Caslon Pro;
     font-size: 20px;
-    width: 1200px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     position: absolute;
