@@ -1,19 +1,6 @@
-html {
-    width: 1200px;
-}
 body {
     font-family: Adobe Caslon Pro;
     font-size: 20px;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    position: absolute;
-}
-main {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    position: absolute;
 }
 
 .myNavs{
@@ -60,13 +47,13 @@ main {
     color: white;
 }
 .home-lead {
-    background-image: url("./images/realfood5") no-repeat !important;
+    background-image: url("./images/realfood5") cover center no-repeat !important;
     width: 100%;
     padding-top: 150px;
     z-index: 1;
     box-shadow: 9px 17px 36px -19px rgba(0,0,0,0.46);
 }
-#home-menu {
+.home-menu {
     z-index: 1;
     box-shadow: 2px 14px 36px -18px rgba(0,0,0,0.75);
     padding: 20px;
@@ -212,49 +199,4 @@ main {
     font-family: serif;
     font-size: 15px;
     padding-top: 10px;
-}
-
-@media (max-width: 575.98px) {
-    #home-lead {
-        width: 100%;
-    }
-    body {
-        width: 100%;
-    }
-    main {
-        width: 100%;
-    }
-}
-@media (max-width: 768.98px) {
-    #home-lead {
-        width: 100%;
-    }
-    body {
-        width: 100%;
-    }
-    main {
-        width: 100%;
-    }
-}
-@media (max-width: 992.98px) {
-    #home-lead {
-        width: 100%;
-    }
-    body {
-        width: 100%;
-    }
-    main {
-        width: 100%
-    }
-} 
-@media (max-width: 1199.98px) {
-    #home-lead {
-        width: 100%;
-    }
-    body {
-        width : 100%;
-    }
-    main {
-        width: 100%;
-    }
 }
