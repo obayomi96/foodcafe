@@ -206,7 +206,13 @@ header {
     padding-top: 10px;
 }
 @media only screen and (max-width: 768.98px) {
-    header, .menu-image, .menuImg {
+    .menuImg {
+        width: 100%;
+    }
+    header {
+        width: 100%;
+    }
+    .menu-image {
         width: 100%;
     }
 }
