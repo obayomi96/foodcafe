@@ -55,8 +55,8 @@ body {
     padding-top: 150px;
     box-shadow: 9px 17px 36px -19px rgba(0,0,0,0.46);
 }
-.home-lead2 {
-    background-image:url("./images/realfood5.jpg") no-repead !important;
+header {
+    background-image:url("./images/realfood5.jpg");
 }
 .home-menu {
     z-index: 1;
@@ -206,7 +206,7 @@ body {
     padding-top: 10px;
 }
 @media only screen and (max-width: 768.98px) {
-    .menu-image {
+    header, .menu-image {
         width: 100%;
     }
 }
