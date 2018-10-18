@@ -1,3 +1,4 @@
+/*
 // dropdown menu function
 const toggler = document.getElementById("toggler");
     toggler.onclick = () => {
@@ -12,4 +13,17 @@ const toggler = document.getElementById("toggler");
       dropMenu.style.display = "none";
     }
   });
+  */
+ // keep nav-link underlined after any of it has been clicked
+ const navContainer = document.getElementById("myNavs");
+ const navs = navComtainer.document.getElementsByClassName("nav-link");
+ for every nav-link 
+ for(let i=0; i<navs.length; i++){
+     navs[i].addEvenetListner("click", () => {
+        const current = document.getElementsByClassName("active2");
+         current[0].className = current[0].ClassName.replace("active2", "");
+         this.className =+ " active2";
+     });
+ }
+  
   
