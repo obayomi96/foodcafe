@@ -51,11 +51,12 @@ body {
     color: white;
 }
 .home-lead {
-    background-image: url("./images/realfood5.jpg") cover center no-repeat !important;
     width: 100%;
     padding-top: 150px;
-    z-index: 1;
     box-shadow: 9px 17px 36px -19px rgba(0,0,0,0.46);
+}
+.home-lead2 {
+    background-image:url("./images/realfood5.jpg") no-repead !important;
 }
 .home-menu {
     z-index: 1;
@@ -203,4 +204,9 @@ body {
     font-family: serif;
     font-size: 15px;
     padding-top: 10px;
+}
+@media only screen and (max-width: 768.98px) {
+    .menu-image {
+        width: 100%;
+    }
 }
