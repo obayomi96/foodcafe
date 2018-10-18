@@ -53,10 +53,11 @@ body {
 .home-lead {
     width: 100%;
     padding-top: 150px;
+    opacity: 0.5;
 }
 header {
     background-image: url("./images/realfood5.jpg") 100% 100% no-repeat;
-    z-index: 2;
+    z-index: 1;
 }
 .home-menu {
     z-index: 1;
