@@ -14,6 +14,7 @@ body {
     transition: 0.5s;
     text-decoration: underline;
     text-decoration-color: white;
+    text-decoration-padding-top: 5px;
 }
 
 .mynavbar{
@@ -56,6 +57,7 @@ body {
 }
 header {
     background-image: url("./images/realfood5.jpg") 100% 100% no-repeat;
+    z-index: 2;
 }
 .home-menu {
     z-index: 1;
