@@ -12,7 +12,13 @@ body {
     box-shadow: 2px 14px 36px -18px rgba(0,0,0,0.75);
     padding-top: 4px;
     transition: 0.5s;
+    text-decoration: underline;
 }
+.nav-link::after {
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
 .mynavbar{
     background-color: rgb(59, 102, 59);
     width: 100%;
@@ -43,6 +49,7 @@ body {
     color: white;
     background-color: rgb(59, 102, 59);
 }
+
 .dropdown-menu a {
     color: white;
 }
