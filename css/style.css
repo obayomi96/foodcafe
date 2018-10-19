@@ -54,8 +54,10 @@ body {
     width: 100%;
     padding-top: 150px;
     opacity: 0.8;
-     background-image: url("./images/realfood5.jpg") 100% 100% no-repeat;
-    z-index: 1;
+    background: url("./images/realfood5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
 }
 
 .home-menu {
