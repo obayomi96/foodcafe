@@ -16,8 +16,8 @@ const toggler = document.getElementById("toggler");
   */
  // keep nav-link underlined after any of it has been clicked
  const navContainer = document.getElementById("myNavs");
- const navs = navComtainer.document.getElementsByClassName("nav-link");
- for every nav-link 
+ const navs = navContainer.document.getElementsByClassName("nav-link");
+ //for every nav-link 
  for(let i=0; i<navs.length; i++){
      navs[i].addEvenetListner("click", () => {
         const current = document.getElementsByClassName("active2");
@@ -25,5 +25,6 @@ const toggler = document.getElementById("toggler");
          this.className =+ " active2";
      });
  }
+  
   
   
