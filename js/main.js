@@ -1,9 +1,7 @@
-/*
 // dropdown menu function
 const toggler = document.getElementById("toggler");
     toggler.onclick = () => {
-    dropMenu.style.display = "block";
-} 
+    dropMenu.style.display = "block"; 
 
  // close menu onlick outside the dowpdown
  window.addEventListener('mouseup', (event) => {
@@ -13,7 +11,8 @@ const toggler = document.getElementById("toggler");
       dropMenu.style.display = "none";
     }
   });
-  */
+ }
+  
  // keep nav-link underlined after any of it has been clicked
  const navContainer = document.getElementById("myNavs");
  const navs = navContainer.document.getElementsByClassName("nav-link");
