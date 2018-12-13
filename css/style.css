@@ -5,7 +5,11 @@ body {
 
 .myNavs{
     margin-left: 10px;
-    font-size: 0px;
+    font-size: 20px;
+}
+#navs .nav-item .nav-link {
+    font-size: 30px;
+    padding: 10px;
 }
 .active2, .nav-link:hover {
     z-index: 1;
