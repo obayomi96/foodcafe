@@ -1,0 +1,247 @@
+body {
+    font-family: Adobe Caslon Pro;
+    font-size: 20px;
+}
+
+.myNavs{
+    margin-left: 10px;
+    font-size: 20px;
+}
+#navs .nav-item .nav-link {
+    font-size: 30px;
+    padding: 10px;
+}
+.active2, .nav-link:hover {
+    background-color: black; 
+    padding-top: 4px;
+    transition: 0.5s;
+}
+
+.mynavbar{
+    background-color: rgb(59, 102, 59);
+    width: 100%;
+}
+.siteBrand {
+    color: black;
+    font-size: 40px;
+    border-radius: 6px;
+    word-spacing: 0.1em; 
+}
+.menubtn {
+    padding-left: 3px;
+    margin-top: 5px;
+    color: silver;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.menubtn:hover {
+    color: white;
+    margin-top: 4px;
+    z-index: 1;
+    box-shadow: 2px 14px 36px -18px rgba(0,0,0,0.75);
+    transition: 0.5s;
+}
+.dropdown-menu {
+    color: white;
+    background-color: rgb(59, 102, 59);
+}
+
+.dropdown-menu a {
+    color: white;
+}
+.home-lead {
+    width: 100%;
+    padding-top: 150px;
+    opacity: 0.8;
+    background: url("./images/realfood5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+.home-menu {
+    z-index: 1;
+    box-shadow: 2px 14px 36px -18px rgba(0,0,0,0.75);
+    padding: 20px;
+}
+.menu-home {
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+.menu-image {
+    padding: 5px;
+    width: 430px; 
+    height: 200px;
+    z-index: 1;
+    box-shadow: 15px -13px 36px -19px rgba(0,0,0,0.46);
+}
+.menu-image:hover {
+    opacity: 0.8;
+}
+.dropdown-menu {
+    opacity: 0.9;
+}
+.nameLogo {
+    display: inline-flex;
+}
+.contents {
+    background-color: white;
+    padding-top: 60px;
+}
+.content {
+    display: block;
+    width: 80%;
+    z-index: 1;
+    box-shadow: 2px 14px 36px -18px rgba(0,0,0,0.75);
+}
+.aboutLogo {
+    background-color: rgb(59, 102, 59);
+    border-radius: 5px;
+    opacity: 0.9;
+}
+.aboutP {
+    z-index: 1;
+    box-shadow: 2px 14px 36px -18px rgba(0,0,0,0.75); 
+}
+.h2about{
+    color: white;
+    font-size: bolder;
+}
+.smallcontent {
+    background-color: silver;
+}
+#myImg {
+    border-color: dimgrey;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    position: relative;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+#myImg:hover {
+    opacity: 0.7;
+  }
+#menuImg {
+    border-color: dimgrey;
+    border: 1px solid dimgrey;
+    border-radius: 4px;
+    padding: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    z-index: 1;
+    box-shadow: 2px 14px 36px -18px rgba(0,0,0,0.75);
+  }
+#menuImg:hover {
+    opacity: 0.7;
+}
+
+.img-fluid {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    position: fixed;
+    height: 100%;
+}
+.form-group input{
+    background: none;
+    padding: 15px 8px 5px;
+    border-bottom: 2px solid #ddd;
+    font-size: 16px;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+.form-group label{
+    position: absolute;
+    height: 20px;
+    color: #666;
+    cursor: text;
+    transition: 
+            font-size .3s ease,
+            bottom .3s ease,
+            opacity .3s ease,
+            left .3s ease;
+}
+.form-group input:focus, .form-group {
+    color: #222;
+    border-color: #206594;
+}
+.form-group input:focus {
+    transition: 
+            color 0s 0.2s,
+            border-color .3s;
+}
+.form-group input:focus + label, .form-group  + label{
+    font-size: 12px;
+    bottom: 25px;
+    left: 0;
+    opacity: .3;
+}
+.submit-btn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.footer {
+    background-color:rgb(59, 102, 59);
+    color: white;
+    padding-top: none;
+    margin-top:none;
+    border-top: none;
+    bottom: 0px;
+    height: 50px;
+    z-index: 1;
+    box-shadow: -1px -12px 48px -17px rgba(0,0,0,0.75);
+}
+#footerp {
+    font-family: serif;
+    font-size: 15px;
+    padding-top: 10px;
+}
+.social-accounts {
+    display: inline;
+}
+.social-link {
+    color: black;
+    padding: 10px;
+}
+@media only screen and (max-width: 768.98px) {
+    #menuImg {
+        width: 80%;
+        margin: 0;
+    }
+    header {
+        width: 100%;
+    }
+    .menu-image {
+        width: 100%;
+    }
+}
+@media (min-width: 992px) {
+    #menuImg {
+        width: 80%;
+        margin: 0;
+    }
+    header {
+        width: 100%;
+    }
+    .menu-image {
+        width: 100%;
+    }
+}
+@media (min-width: 576px) {
+    #menuImg {
+        width: 80%;
+        margin: 0;
+    }
+    header {
+        width: 100%;
+    }
+    .menu-image {
+        width: 100%;
+    }
+}
