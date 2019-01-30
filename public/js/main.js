@@ -41,7 +41,7 @@ const toggler = document.getElementById("toggler");
             $.ajax({
                 method: 'POST',
                 url: 'https://formspree.io/martinsoluwaseun47@gmail.com',
-                data: $(this).serialize(),
+                data: $(#contact-form).serialize(),
                 dataType: 'json'
             });
             e.preventDefault();
