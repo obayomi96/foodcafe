@@ -77,15 +77,16 @@
                                     <footer class="blockquote-footer">We will reply <cite title="Source Title">SWIFTLY</cite></footer>
                                   </blockquote>
                         </div>
-                         <form class="form-group" id="login">
+                         <form  class="form-group" id="contact-form">
                            <div>
-                             <input type="text" placeholder="Name" required>
-                             <input type="text" placeholder="Email" required>
+                             <input type="text" id="inputName" name="name" placeholder="Name" required>
+                             <input type="email" id="inputEmail" name="email" placeholder="Email" required>
                      
                     </div>
                     <div>
-                            <textarea class="form-control message" id="Textarea" placeholder="Your message..." rows="3"></textarea>
-                            <button type="submit" class="btn btn-success submit-btn" data-toggle="modal" data-target=".bd-example-modal-sm">Submit</button>
+                            <textarea class="form-control message" id="Textarea" name="message" placeholder="Your message..." rows="3"></textarea>
+                            <input type="text" name="_gotcha" class="display-none">
+                            <input type="submit" class="btn btn-success submit-btn" value="Submit" data-toggle="modal" data-target=".bd-example-modal-sm">
                           </div>
                          </form>
                     </div>
