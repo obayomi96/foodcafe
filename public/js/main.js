@@ -1,5 +1,5 @@
 // dropdown menu function
-const dropMenu = document.getElementById("navs");
+const dropMenu = document.getElementById("navbarColor01");
 const toggler = document.getElementById("toggler");
 
     toggler.onclick = () => {
@@ -26,4 +26,27 @@ const toggler = document.getElementById("toggler");
  }
   
   
-  
+  // Contact-Form Message Submission
+ 
+ $(document).ready(function{
+     $('#contact-form').submit(function(e) {
+        var name = document.getElementById('name'),
+            email = document.getElementById('email'),
+            message = document.getElementById('Textarea');
+            
+        if(!name.value || !email.value || !message.value){
+            alert("Please check your entries!");
+            return false;
+        } else {
+            $.ajax({
+                method: 'POST',
+                url: 'https://formspree.io/martinsoluwaseun47@gmail.com',
+                data: $(this).serialize(),
+                dataType: 'json'
+            });
+            e.preventDefault();
+            $(this).get(0).reset();
+            alert('Your message has been sent');
+        }
+     });
+ }); 
